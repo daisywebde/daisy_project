@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetmyNews.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="main-nav-bar">
+        <div class="logo-text">
+            <p>GetmyNews</p>
+        </div>
+        <img class="logo" src="logo_512.png">
+    </div>
+    </header>
+    <div class="nav-bar">
+        <div class="news-options">
+            <ul class="nav-items">
+                <li class="nav-item-link" id="headlines" onclick="onNavItemClick('headlines')">Home</li>
+                <li class="nav-item-link" id="entertainment"onclick="onNavItemClick('entertainment')" >Entertainment</li>
+                <li class="nav-item-link" id="cricket"onclick="onNavItemClick('cricket')" >Cricket</li>
+                <li class="nav-item-link" id="india"onclick="onNavItemClick('india')">India</li>
+                <li class="nav-item-link" id="finance"onclick="onNavItemClick('finance')">Markets & Finance</li>
+                <li class="nav-item-link" id="world"onclick="onNavItemClick('world')" >World</li>
+                <li class="nav-item-link" id="viralvideos"onclick="onNavItemClick('viralvideos')" >Viral Videos</li>
+                <li class="nav-item-link" id="technology" onclick="onNavItemClick('technology')">Technology</li>
+                <li class="nav-item-link" id="education"onclick="onNavItemClick('education')" >Education</li>
+                <li class="nav-item-link" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+
+            </ul>
+        </div>
+
+    </div>
+    
+    <div class="main">
+        <div class="category-option">
+            <div class="category-word">
+                CATEGORY: INDIA
+            </div>
+            <div class="underline">
+                <div class="underline-yellow">
+                    
+                </div>
+            </div>
+    
+        </div>
+        <div class="news-body" id="news-container">
+            <template id="template-news-box">
+                <div class="box">
+                    <div class="box-header">
+                        <img src="https://via.placeholder.com/400x200" alt="newsimage" id="news-image">
+                    </div>
+                    <div class="news-content">
+                        <h3 id="news-title">This is the title</h3>
+                        <h6 class="news-source" id="news-source">End Gadget date</h6>
+                        <p class="news-desc" id="news-desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse at illo suscipit maxime facilis, dicta repellat tempore modi est fugit.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </template>
+    </div>
+    
+    <footer>
+        <div class="footer-box">
+            <div class="some-info">
+               <p id="end-text">@2024 - All Right Reserved by GetmyNews</p> 
+               <div class="socialmedia-links">
+                <img src="twitter-x-logo-0339F999CF-seeklogo.com.png" alt="" class="logo1 img">
+                <img src="youtube-logo-png-2092.png" alt="" class="logo2 img">
+                <img src="linkedin.png" alt="" class="logo3 img">
+                <img src="instagram-icon-white-on-black-circle.png" alt="" class="logo4 img">
+                <img src="whatsapp-logo-png-2259.png" alt="" class="logo5 img">
+               </div>
+                    <ul class="footer-list">
+                        <li>ABOUT US</li>
+                        <li>TERMS AND CONDITIONS </li>
+                        <li>CONTACT US</li>
+                        <li>PRIVACY AND POLICY</li>
+                        <li>AFFILIATE DISCLOSURE</li>
+                    </ul>
+                
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
